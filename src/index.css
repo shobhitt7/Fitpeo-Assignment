@@ -358,7 +358,7 @@ h2 {
 }
 
 .bar {
-  width: 30px; /* more width */
+  width: 30px; 
   background-color: #4a90e2;
   border-radius: 6px 6px 0 0;
 }
