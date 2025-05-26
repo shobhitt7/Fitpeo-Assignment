@@ -1,0 +1,675 @@
+
+body{
+  margin: 0;
+    font-family: "Alegreya SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.alegreya-sc-bold {
+  font-family: "Alegreya SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+.main-heading{
+  margin: 0;
+  margin-left: 35px;
+  margin-top: 30px;
+  width: 270px;
+  height: 50px;
+  padding: 15px;
+  color: rgb(50, 50, 190);
+  font-size: 2rem;
+  font-weight: 800;
+background-color: aliceblue;
+   border-top-left-radius: 15px;
+}
+.app-title{
+  color: rgb(10, 221, 240);
+}
+.search-input{
+  margin-top: 2.8rem;
+  height: 2rem;
+  width: 18rem;
+  border-radius: 6px;
+  background-color: aliceblue;
+  font-size: 1.5rem;
+  margin-left: 90px;
+   box-shadow: 0 -4px 6px -4px rgba(150, 150, 150, 0.4), 
+              0  4px 6px -4px rgba(150, 150, 150, 0.4);
+ 
+}
+.noti-icon{
+  margin-top: 2.8rem;
+  margin-left: 18px;
+  height: 2.3rem;
+  width: 2rem;
+  border-radius: 6px;
+  background-color: aliceblue;
+
+ 
+}
+
+.profile-icon{
+  margin-top: 2.8rem;
+  height: 2.3rem;
+  width: 2rem;
+   border-radius: 6px;
+   background-color: rgb(17, 167, 227);
+     margin-left: 590px;
+}
+.add-icon{
+  margin-left: 10px;
+  margin-top: 2.8rem;
+  height: 2.3rem;
+  width: 2rem;
+   border-radius: 6px;
+   background-color: rgb(173, 122, 249);
+   margin-right: 20px;
+  
+}
+.header button{
+   transition: background-color 0.3s ease, transform 0.2s ease;
+  transform: scale(1.05);
+
+}
+.nav-bar{
+  display: flex;
+  flex-direction: column;
+    margin-left: 35px;
+   background-color: aliceblue;
+    width: 13.75%;
+    height: 76vh;
+    padding: 15px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+}
+.nav-bar a{
+  text-decoration: none;
+  color: grey;
+  margin-bottom: 18px;
+
+}
+.nav-bar a:hover{
+color: rgb(31, 31, 157);
+
+}
+
+.nav-bar h1{
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  color: grey;
+}
+
+.dashboard i{
+ margin-right: 12px;
+ color: rgb(31, 31, 157);
+}
+.dashboard {
+  color: rgb(31, 31, 157) !important;
+}
+
+.history i{
+ margin-right: 12px;
+}
+
+.calender i{
+ margin-right: 12px;
+}
+
+.appointment i{
+ margin-right: 12px;
+}
+
+.statictics i{
+ margin-right: 12px;
+ margin-bottom: 30px;
+}
+
+.chat i{
+ margin-right: 12px;
+}
+
+.support i{
+ margin-right: 12px;
+}
+
+.settings i{
+ margin-right: 12px;
+ margin-top: auto;
+
+}
+
+.settings{
+  margin-top: auto;
+}
+
+.dashing img{
+  position: relative;
+  left: 300px;
+  border-radius: 10px;
+  width: 270px;
+}
+.dashboard-div{
+  display: flex;
+  flex-direction: row;
+}
+.dashing h1{
+  margin: 0;
+  margin-top: 1px;
+  margin-left: 305px;
+  margin-bottom: 1.2rem;
+  color: darkblue;
+}
+
+.maindash-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.healthcard{
+  margin-top: 55px;
+  margin-left: 120px;
+  width: 200px;
+  position: relative;
+}
+.healthcard-item{
+   margin-bottom: 6px;
+   background-color: aliceblue;
+   border-radius: 5px;
+   padding: 1px;
+}
+
+.imagename-div{
+  display: flex;
+}
+
+.progress-bar {
+  background-color: #dddcdc;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.progress {
+  height: 100%;
+  background-color: #b3120c;
+  border-radius: 5px 0 0 5px;
+  transition: width 0.3s ease;
+}
+.card-titlename{
+  margin: 0;
+  margin-left: 8px;
+  margin-top: 18px;
+  color: darkblue;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card-date{
+   color: grey;
+   padding: 0 4px ;
+}
+
+
+.calendar-view {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  color: darkblue;
+  font-weight: 800;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-bottom: 10px;
+  margin: 5px;
+
+}
+
+.calendar-header {
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 0;
+  background-color: aliceblue;
+}
+
+.calendar-cell {
+  border: 1px solid #ccc;
+  min-height: 80px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+  background-color: aliceblue;
+  border-radius: 18px;
+  color:darkblue;
+}
+
+.calendar-cell.empty {
+  background-color: transparent;
+  border: none;
+}
+
+.calendar-cell.highlight {
+  background-color: rgb(46, 46, 144);
+  border: 2px solid #4dd0e1;
+  color: white;
+}
+
+.day-number {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.appointment-time {
+  font-size: 0.75rem;
+  background: aliceblue;
+  color: black;
+  padding: 2px 4px;
+  margin-top: 2px;
+  border-radius: 4px;
+}
+
+.appointment-cards {
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 35px;
+}
+.appointment-card h3{
+  margin: 0;
+}
+
+.appointment-card p{
+  margin-bottom: 0;
+}
+
+.appointment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 38px;
+  width: 200px;
+  background-color:rgb(172, 210, 244);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  
+}
+.upcoming-heading{
+  color: darkblue;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin: 0;
+  margin-top: 15px;
+  padding: 10px;
+}
+ 
+.activity-feed {
+  background-color: aliceblue;
+  padding: 16px;
+  border-radius: 8px;
+  width: 250px;
+  position:absolute;
+  top: 540px;
+}
+
+.activity-feed {
+  background-color: aliceblue;
+  padding: 12px;
+  border-radius: 8px;
+  width: 480px;
+  margin-left: 290px;
+  font-family: Arial, sans-serif;
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 20px; 
+  margin-top: 16px;
+}
+
+.bar {
+  width: 30px; /* more width */
+  background-color: #4a90e2;
+  border-radius: 6px 6px 0 0;
+}
+
+.monday {
+  height: 20px;
+}
+
+.wednesday {
+  height: 35px;
+}
+
+.friday {
+  height: 50px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .profile-icon {
+    margin-left: 300px;
+  }
+  
+  .search-input {
+    width: 15rem;
+    margin-left: 50px;
+  }
+  
+  .dashing img {
+    left: 250px;
+    width: 220px;
+  }
+  
+  .dashing h1 {
+    margin-left: 255px;
+  }
+  
+  .healthcard {
+    margin-left: 80px;
+  }
+  
+  .activity-feed {
+    width: 400px;
+    margin-left: 240px;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .main-heading {
+    margin-left: 20px;
+    width: 200px;
+    font-size: 1.6rem;
+  }
+  
+  .search-input {
+    width: 12rem;
+    margin-left: 20px;
+  }
+  
+  .profile-icon {
+    margin-left: 50px;
+  }
+  
+  .nav-bar {
+    margin-left: 20px;
+    width: 16%;
+    font-size: 1.2rem;
+  }
+  
+  .dashing img {
+    left: 200px;
+    width: 180px;
+  }
+  
+  .dashing h1 {
+    margin-left: 205px;
+  }
+  
+  .healthcard {
+    margin-left: 50px;
+    width: 180px;
+  }
+  
+  .activity-feed {
+    width: 350px;
+    margin-left: 200px;
+  }
+  
+  .calendar-view {
+    max-width: 600px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .main-heading {
+    margin: 0;
+    width: auto;
+    text-align: center;
+  }
+  
+  .search-input {
+    margin: 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .noti-icon, .profile-icon, .add-icon {
+    margin: 0;
+    position: static;
+  }
+  
+  .nav-bar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .nav-bar a {
+    margin-bottom: 10px;
+    text-align: center;
+    flex: 1;
+    min-width: 80px;
+  }
+  
+  .nav-bar h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .settings {
+    margin-top: 0;
+  }
+  
+  .dashboard-div, .maindash-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashing img {
+    position: static;
+    width: 100%;
+    max-width: 250px;
+    margin: 20px 0;
+  }
+  
+  .dashing h1 {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .healthcard {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 250px;
+  }
+  
+  .calendar-view {
+    max-width: 100%;
+    margin: 20px;
+  }
+  
+  .calendar-grid {
+    gap: 3px;
+  }
+  
+  .calendar-cell {
+    min-height: 60px;
+    font-size: 0.9rem;
+  }
+  
+  .activity-feed {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    top: auto;
+  }
+  
+  .appointment-cards {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .appointment-card {
+    width: 90%;
+    max-width: 280px;
+    margin-bottom: 15px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .main-heading {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+  
+  .search-input {
+    font-size: 1.2rem;
+    height: 1.8rem;
+  }
+  
+  .nav-bar {
+    font-size: 0.9rem;
+    padding: 8px;
+    margin: 0 10px;
+  }
+  
+  .nav-bar a {
+    margin-bottom: 8px;
+    min-width: 70px;
+  }
+  
+  .nav-bar i {
+    margin-right: 6px;
+  }
+  
+  .card-titlename {
+    font-size: 18px;
+  }
+  
+  .calendar-cell {
+    min-height: 50px;
+    padding: 3px;
+    font-size: 0.8rem;
+  }
+  
+  .appointment-time {
+    font-size: 0.65rem;
+  }
+  
+  .upcoming-heading {
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  .bar-chart {
+    height: 15px;
+  }
+  
+  .bar {
+    width: 20px;
+  }
+  
+  .monday {
+    height: 15px;
+  }
+  
+  .wednesday {
+    height: 25px;
+  }
+  
+  .friday {
+    height: 35px;
+  }
+  
+  .labels {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .main-heading {
+    font-size: 1.2rem;
+  }
+  
+  .nav-bar {
+    font-size: 0.8rem;
+  }
+  
+  .nav-bar a {
+    min-width: 60px;
+  }
+  
+  .calendar-grid {
+    gap: 2px;
+  }
+  
+  .calendar-cell {
+    min-height: 45px;
+    padding: 2px;
+  }
+}
